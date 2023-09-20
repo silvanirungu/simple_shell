@@ -4,9 +4,7 @@
 
 /**
  * message_selector - Select the message that match with the error_code
- *
  * @info: General information about the shell         
- *
  * Return: Error message
  **/
 char *message_selector(general_t info)
