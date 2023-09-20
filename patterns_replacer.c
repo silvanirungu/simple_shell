@@ -4,21 +4,21 @@
 
 /**
  * replacement - Entry point
- * @info: input
- * @index: input
+ * @info: input                                                      
+ * @index: input                                     
  * @string: input
- * Return: string
+ * Return: string                                            
 **/
 
 char *replacement(general_t *info, int *index, char *string)
 {
 	char *tmp;
-	char symbol;
-
+	char symbol;                 
+                                  
 	(void) index;
 
 	symbol = *string;
-	if (symbol != '?' && symbol != '$')
+	if (symbol != '?' && symbol != '$')                             
 	{
 		tmp = replace_env(info, string);
 		return (tmp);
