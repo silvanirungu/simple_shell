@@ -7,23 +7,23 @@
  *
  * @filename: Filename to check
  *
- * Return: On success, PERMISSIONS
+ * Return: On success, PERMISSIONS                                             
  * On error, NON_PERMISSIONS
  **/
 int is_executable(char *filename)
-{
+{                    
 	struct stat stats;
 
 	if (stat(filename, &stats) == 0)
-	{
-		if (stats.st_mode & X_OK)
+	{                                
+		if (stats.st_mode & X_OK)                 
 			return (PERMISSIONS);
 		else
 			return (NON_PERMISSIONS);
 	}
-
+                                       
 	return (NON_FILE);
-}
+}                                       
 
 /**
  * is_file - Check if is a file or binary
