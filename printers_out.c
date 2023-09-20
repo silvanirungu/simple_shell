@@ -1,11 +1,11 @@
 #include "general.h"
-#include "text.h"
-
-/**
- * _putchar - Print a character to STDOUT
- *
- * @c: Character to print
- *
+#include "text.h"                                                                                                                                  
+                                                    
+/**                                            
+ * _putchar - Print a character to STDOUT             
+ *                            
+ * @c: Character to print                    
+ *            
  * Return: On success 1
  * On error -1
  **/
