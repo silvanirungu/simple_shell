@@ -5,8 +5,6 @@
  *
  * @info: Information about the shell
  * @arguments: Commands and arguments
- *
- *
  * Return: If the command passed is a builtins
  * return _TRUE if not return _FALSE
  **/
