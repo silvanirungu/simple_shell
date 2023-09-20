@@ -4,7 +4,8 @@
 #include "text.h"
 
 /**
- * analyze_patterns - Entry Point                                                          
+ * analyze_patterns - Entry Point
+ *
  * @info: input
  * @arguments: input
 **/                                                                     
@@ -20,6 +21,7 @@ void analyze_patterns(general_t *info, char **arguments)
 /**                                                                     
  * pattern_handler - Entry Point                                              
  * @info: input
+ *
  * @string: input
  * Return: string
 **/
