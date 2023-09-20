@@ -2,7 +2,7 @@
 
 /**
  * free_memory_p - Free a pointer
- *
+ *                                                                                                                                                                    
  * @ptr: Pointer to free
  **/
 void free_memory_p(void *ptr)
