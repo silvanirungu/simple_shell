@@ -4,11 +4,11 @@
 #include <stdio.h>
 #include <unistd.h>
 #include <stdlib.h>
-#include <string.h>
-
-#include "general.h"
-#include "memory.h"
-
+#include <string.h>                                 
+                          
+#include "general.h"                                      
+#include "memory.h"                                       
+      
 /* text.c */
 void start_prompt(general_t *info);
 void prompt(general_t *info);
