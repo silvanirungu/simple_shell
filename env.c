@@ -4,7 +4,7 @@
  * bin_env - Implementation for the env builtin
  *
  * @info: General information about the shell
- * @arguments: Command
+ * @arguments: Command                   
  **/
 void bin_env(general_t *info, char **arguments)
 {
