@@ -3,11 +3,11 @@
 
 /**
  * digits - Cout the numbe of digits of a number
- *
- * @n: Number
- *
- * Return: Digits
- **/
+ * 
+ * @n: Number                 
+ *                          
+ * Return: Digits                    
+ **/                             
 int digits(int n)
 {
 	int i;
