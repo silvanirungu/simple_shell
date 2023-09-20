@@ -3,15 +3,15 @@
 #include "general.h"
 #include "memory.h"
 
-/**
- * prompt - Print the prompt
+/**                                                   
+ * prompt - Print the prompt                                                 
  *
- * @info: Struct of general information
+ * @info: Struct of general information                                                                 
  **/
 void prompt(general_t *info)
-{
+{                                                                      
 	if (info->mode == NON_INTERACTIVE)
-		return;
+		return;                                                                           
 
 	print("$ ");
 }
