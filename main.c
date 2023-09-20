@@ -3,7 +3,9 @@
 
 /**
  * main - Entry Point
+ *
  * @argc: number of arguments received
+ *
  * @argv: arguments received
  * Return: 0                                                 
  **/
