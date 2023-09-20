@@ -7,9 +7,7 @@
 
 /**
  * _getenv - Get a environment variable
- *
  * @name: Environment variable to get
- *       
  * Return: On success value of @name
  * On error, NULL
  **/
