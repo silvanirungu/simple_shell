@@ -7,7 +7,7 @@
  * @info: input                                                      
  * @index: input                                     
  * @string: input
- * Return: string                                            
+ * Return: string                                             
 **/
 
 char *replacement(general_t *info, int *index, char *string)
