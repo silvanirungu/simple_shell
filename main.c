@@ -5,15 +5,15 @@
  * main - Entry Point
  * @argc: number of arguments received
  * @argv: arguments received
- * Return: 0
+ * Return: 0                                                 
  **/
 
-int main(int argc, char **argv)
+int main(int argc, char **argv)                                    
 {
 	general_t *info;
 	int status_code;
 
-	info = malloc(sizeof(general_t));
+	info = malloc(sizeof(general_t));                                  
 	if (info == NULL)
 	{
 		perror(argv[0]);
