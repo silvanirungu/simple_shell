@@ -2,7 +2,6 @@
 
 /**
  * bin_env - Implementation for the env builtin
- *
  * @info: General information about the shell
  * @arguments: Command                   
  **/
