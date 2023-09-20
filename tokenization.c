@@ -1,11 +1,9 @@
 #include "text.h"
 
 /**                                        
- * split_words - Split a line into words       
- *                    
+ * split_words - Split a line into words                         
  * @line: Line to spli                   
- * @sep: Delimiters for split the words             
- *                     
+ * @sep: Delimiters for split the words                                 
  * Return: Set of words            
  **/                                                      
 char **split_words(char *line, const char *sep)
