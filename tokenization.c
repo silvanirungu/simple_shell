@@ -1,13 +1,13 @@
 #include "text.h"
 
-/**
- * split_words - Split a line into words
- *
- * @line: Line to spli
- * @sep: Delimiters for split the words
- *
- * Return: Set of words
- **/
+/**                                        
+ * split_words - Split a line into words       
+ *                    
+ * @line: Line to spli                   
+ * @sep: Delimiters for split the words             
+ *                     
+ * Return: Set of words            
+ **/                                                      
 char **split_words(char *line, const char *sep)
 {
 	char **words, **tmp, *token;
