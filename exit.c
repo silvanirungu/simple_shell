@@ -5,7 +5,7 @@
  * bin_exit - Implementation of the exit builtin
  * Description: Free all the memory used and
  * exit with the last status_code
- *
+ *                                                                                                                                                           
  * @info: Information about the shell
  * @arguments: Arguments received
  **/
