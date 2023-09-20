@@ -16,7 +16,7 @@
 
 extern char **environ;
 
-/* commands.c */
+/* commands.c  */
 void analyze(char **arguments, general_t *info, char *buff);
 
 /* permissions.c */
