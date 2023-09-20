@@ -28,11 +28,11 @@
 #define _CODE_ILLEGAL_NUMBER   133
 typedef struct __attribute__((__packed__))
 {
-	int argc;                 /* Number of arguments received */
-	char **argv;              /* Arguments received */
-	int mode;                 /* INTERACTIVE or NON_INTERACTIVE */
-	int error_code;           /* Error code for error message */
-	char *command;            /* Command to execute */
+	int argc;                 /* Number of arguments received  */
+	char **argv;              /* Arguments received  */
+	int mode;                 /* INTERACTIVE or NON_INTERACTIVE  */
+	int error_code;           /* Error code for error message  */
+	char *command;            /* Command to execute  */
 	int n_commands;           /* Number of commands executed */
 	char *value_path;         /* Path of a command */
 	int is_current_path;      /* Check if is current path or not */
