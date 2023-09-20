@@ -36,10 +36,10 @@ int print_to_fd(char *msg, int fd);
 int _putchar(char c);
 int print(char *msg);
 
-/* printers_err.c */
+/* printers_err.c   */
 int print_err(char *msg);
 
-/* tokenization.c */
+/* tokenization.c    */
 char **split_words(char *line, const char *sep);
 char *join_words(char *word1, char *word2, char *word3, const char *sep);
 
