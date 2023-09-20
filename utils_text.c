@@ -4,8 +4,8 @@
  * _strlen - Return the length of a string
  *
  * @msg: String to calculate length
- *
- * Return: Length of the string
+ * 
+ * Return: Length of the string 
  **/
 int _strlen(char *msg)
 {
