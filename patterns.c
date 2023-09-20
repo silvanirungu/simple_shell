@@ -4,21 +4,21 @@
 #include "text.h"
 
 /**
- * analyze_patterns - Entry Point
+ * analyze_patterns - Entry Point                                                          
  * @info: input
  * @arguments: input
-**/
+**/                                                                     
 
 void analyze_patterns(general_t *info, char **arguments)
-{
+{                                                                           
 	int i;
-
+                                                                              
 	for (i = 0; arguments[i] != NULL; i++)
-		arguments[i] = pattern_handler(info, arguments[i]);
+		arguments[i] = pattern_handler(info, arguments[i]);                                                                               
 }
 
-/**
- * pattern_handler - Entry Point
+/**                                                                     
+ * pattern_handler - Entry Point                                              
  * @info: input
  * @string: input
  * Return: string
