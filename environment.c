@@ -9,7 +9,7 @@
  * _getenv - Get a environment variable
  *
  * @name: Environment variable to get
- *
+ *       
  * Return: On success value of @name
  * On error, NULL
  **/
@@ -123,6 +123,7 @@ void is_current_path(char *path, general_t *info)
 /**
  * get_full_env - Get all the environment
  **/
+
 void get_full_env(void)
 {
 	char **tmp;
