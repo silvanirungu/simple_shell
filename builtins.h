@@ -6,11 +6,11 @@
 #include "memory.h"
 #include "commands.h"
 
-/* builtins.c */
+/* builtins.c   */
 int builtins(general_t *info, char **arguments);
 int check_builtin(general_t *info, char **arguments);
 
-/* exit.c */
+/* exit.c   */
 void bin_exit(general_t *info, char **arguments);
 int number_controller(general_t *info, char *number);
 
